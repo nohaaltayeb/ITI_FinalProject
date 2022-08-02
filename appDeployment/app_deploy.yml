@@ -3,7 +3,7 @@ kind: Deployment
 
 metadata:
   name: nodejs
-  namespace: newApp
+  namespace: new-app
 spec:
   replicas: 1
   selector:
