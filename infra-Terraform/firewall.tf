@@ -3,7 +3,7 @@ resource "google_compute_firewall" "allow-ssh" {
   name        = "allow-ssh"
   network     =  google_compute_network.vpc_network.id
   direction     = "INGRESS"
-  source_ranges =  [ "35.235.240.0/20" ]
+  source_ranges =  [ "0.0.0.0/0" ]
 
   description = "Creates firewall rule for instances"
   depends_on = [
