@@ -20,7 +20,7 @@ spec:
       serviceAccountName: jenkins-admin
       containers:
         - name: nodejs
-          image: nohaaltayeb/nodejs-db:latest
+          image: nohaaltayeb/nodejs:latest
           resources:
             limits:
               memory: "2Gi"
