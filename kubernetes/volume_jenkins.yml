@@ -28,10 +28,7 @@ subjects:
 - kind: ServiceAccount
   name: jenkins-admin
   namespace: jenkins
-noha@private-vm:~$ ls
-google-cloud-cli-394.0.0-linux-x86_64.tar.gz  jenkins_deploy.yml   sa.yml  volume.yml
-google-cloud-sdk                              jenkins_service.yml  snap
-noha@private-vm:~$ cat volume.yml 
+
 # storage class
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
