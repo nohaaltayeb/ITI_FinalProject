@@ -4,6 +4,12 @@
 
 [http://35.223.44.210:8080/](http://35.223.44.210:8080/)  (jenkins URL) 
 
+# Task :
+1. Implement secure Kubernetes cluster
+2. Deploy and configure Jenkins on Kubernetes.
+3. Deploy this  application  https://github.com/nohaaltayeb/application_nodejs on Kubernetes using Jenkins pipeline.
+
+
 # 1-Creating Infrastructure
 
 ### I have created Infrastructure using terraform and Google Cloud Provider:
